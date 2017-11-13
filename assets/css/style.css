@@ -43,6 +43,7 @@ h4:last-child{
     color: white;
     font-size: 40px;
     padding: 0 20px;
+    text-shadow: 2px 2px 5px black;
 }
 
 #content{
@@ -59,6 +60,7 @@ body{
 
 h1, h2{
     font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: bold;
 }
 
 footer{
@@ -73,4 +75,43 @@ footer{
 
 h6{
     margin: auto auto;
+}
+
+#content{
+    display:flex;
+}
+
+#aboutMe{
+    margin-right:auto;
+}
+#CWM{
+    width:270px;
+    height:220px;
+    background-color: white;
+    display: flex;
+    margin-left:auto;
+    flex-direction: column;
+}
+
+h2{
+    font-size: 20px;
+    margin: auto;
+}
+
+hr{
+    border: 0;
+    clear:both;
+    display:block;
+    width: 75%;                
+    background-image: linear-gradient(to right, #ccc, rgb(110, 110, 110), #ccc);
+    height: 1px;
+}
+
+#icons{
+    margin: auto;
+}
+
+.icon{
+    height:70px;
+    width:auto;
 }

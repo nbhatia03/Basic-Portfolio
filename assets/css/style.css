@@ -1,0 +1,57 @@
+header{
+    height:100px;
+    display:flex;
+    background-color: white;
+    margin-bottom: 50px;
+}
+nav{
+    display: block;
+    float:right;
+    margin: auto 0 auto auto;
+}
+
+nav > h4{
+    display: inline-block;
+    padding: 10px;
+    border-right: 2px solid black;
+}
+
+h4:last-child{
+    border: none;
+}
+#headDiv{
+    width: 960px;
+    display: flex;
+    margin: 0 auto;
+}
+#name{
+    background-color: #4aaaa5; 
+    display: inline-flex; 
+    height:95%;
+    text-align: center;
+    margin-bottom:0px;
+    margin-top:auto;
+    overflow:auto;
+}
+
+#name > h1{
+    margin: auto auto;
+    display: block;
+    color: white;
+    font-size: 40px;
+    padding: 0 20px;
+}
+
+#content{
+    width:960px;
+    margin: 0 auto;
+}
+
+body{
+    background-image: url("../images/hexellence_@2X.png");
+    background-repeat: repeat;
+}
+
+h1, h2{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}

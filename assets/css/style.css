@@ -81,9 +81,23 @@ h6{
     display:flex;
 }
 
-#aboutMe{
+#main{
     margin-right:auto;
+    width: 600px;
+    padding: 20px 25px;
+    background-color: white;
 }
+
+#main > h1{
+    font-size:30px;
+    margin: 15px 0;
+}
+
+#aboutMeImg{
+    float: left;
+    margin: 0 15px 15px 0;
+}
+
 #CWM{
     width:270px;
     height:220px;
@@ -114,4 +128,12 @@ hr{
 .icon{
     height:70px;
     width:auto;
+}
+
+p{
+    margin: 0 0 10px 0;
+}
+
+p:last-child{
+    margin:0;
 }

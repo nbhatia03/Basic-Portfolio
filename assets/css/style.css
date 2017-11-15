@@ -1,5 +1,5 @@
 header{
-    height:100px;
+    height:90px;
     display:flex;
     background-color: white;
     margin-bottom: 50px;
@@ -16,7 +16,12 @@ nav{
 nav > h4{
     display: inline-block;
     padding: 0 10px;
-    border-right: 2px solid black;
+    border-right: 2px solid #e8e6e6;
+    color: gray;
+}
+
+nav > h4 > a{
+    color: gray;
 }
 
 h4:last-child{
@@ -35,6 +40,7 @@ h4:last-child{
     margin-bottom:0px;
     margin-top:auto;
     overflow:auto;
+    width: 200px;
 }
 
 #name > h1{
@@ -43,7 +49,7 @@ h4:last-child{
     color: white;
     font-size: 40px;
     padding: 0 20px;
-    text-shadow: 2px 2px 5px black;
+    text-shadow: 2px 2px 5px #3d4f48;;
 }
 
 #content{
@@ -90,7 +96,8 @@ h6{
 
 #main > h1{
     font-size:30px;
-    margin: 15px 0;
+    margin: 15px 0 25px 0;
+    color: #4aaaa5;
 }
 
 #aboutMeImg{
@@ -100,7 +107,7 @@ h6{
 
 #CWM{
     width:270px;
-    height:220px;
+    height:200px;
     background-color: white;
     display: flex;
     margin-left:auto;
@@ -109,7 +116,8 @@ h6{
 
 h2{
     font-size: 20px;
-    margin: auto;
+    margin: auto auto 12px 30px;
+    color: #4aaaa5;
 }
 
 hr{
@@ -117,8 +125,8 @@ hr{
     clear:both;
     display:block;
     width: 75%;                
-    background-image: linear-gradient(to right, #ccc, rgb(110, 110, 110), #ccc);
-    height: 1px;
+    background-color: #c8c7c7;
+    height: 2px;
 }
 
 #icons{
@@ -132,8 +140,60 @@ hr{
 
 p{
     margin: 0 0 10px 0;
+    line-height: 200%;
 }
 
 p:last-child{
     margin:0;
+}
+
+#hrMain{
+    margin-bottom: 25px;
+    width: 100%;
+    height:3px;
+}
+
+form{
+    font-size: 18px;
+    color: gray;
+}
+
+input{
+    margin: 10px 0 15px 0;
+    height: 35px;
+    width: 100%;
+    font-size: 14px;
+    color: #919090;
+    padding: 4px;
+    box-sizing: border-box;
+}
+
+input::-webkit-input-placeholder{
+    color:#bcbbbb;
+}
+
+#message{
+    height: 200px;
+    resize: vertical;
+    overflow: auto;
+}
+
+textarea{
+    width: 100%;
+    height:150px;
+    resize: vertical;
+    overflow: auto;
+    padding: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+    margin: 10px 0 15px 0;
+    border-color: lightgrey;
+}
+
+#submit{
+    width:120px;
+    height:40px;
+    background-color: #4aaaa5;
+    color: white;
+    font-size:18px;
 }

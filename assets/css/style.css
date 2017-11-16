@@ -197,3 +197,31 @@ textarea{
     color: white;
     font-size:18px;
 }
+
+#portPics{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.portPic{
+    margin-bottom: 50px;
+    position: relative;
+    max-height:225px;
+}
+
+.portPic:nth-child(odd){
+    margin-right:auto;
+}
+
+h5{
+    position: absolute;
+    bottom: 10px;
+    background-color: #4aaaa5;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    color: white;
+}

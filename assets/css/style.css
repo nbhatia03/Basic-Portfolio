@@ -1,5 +1,7 @@
 header{
     height:90px;
+    display:-webkit-box;
+    display:-ms-flexbox;
     display:flex;
     background-color: white;
     margin-bottom: 50px;
@@ -30,11 +32,15 @@ h4:last-child{
 }
 #headDiv{
     width: 960px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin: 0 auto;
 }
 #name{
     background-color: #4aaaa5; 
+    display: -webkit-inline-box; 
+    display: -ms-inline-flexbox; 
     display: inline-flex; 
     height:95%;
     text-align: center;
@@ -73,6 +79,8 @@ h1, h2{
 footer{
     position:fixed;
     bottom: 0px;
+    display:-webkit-box;
+    display:-ms-flexbox;
     display:flex;
     background-color: #777777;
     border-top: 10px solid #4aaaa5;
@@ -85,6 +93,8 @@ h6{
 }
 
 #content{
+    display:-webkit-box;
+    display:-ms-flexbox;
     display:flex;
 }
 
@@ -110,9 +120,14 @@ h6{
     width:270px;
     height:200px;
     background-color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin-left:auto;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 }
 
 h2{
@@ -166,7 +181,8 @@ input{
     font-size: 14px;
     color: #919090;
     padding: 4px;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
 }
 
 input::-webkit-input-placeholder{
@@ -186,7 +202,8 @@ textarea{
     overflow: auto;
     padding: 4px;
     font-size: 14px;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     margin: 10px 0 15px 0;
     border-color: lightgrey;
 }
@@ -200,9 +217,15 @@ textarea{
 }
 
 #portPics{
+    display:-webkit-box;
+    display:-ms-flexbox;
     display:flex;
-    flex-wrap: wrap;
-    flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
 }
 
 .portPic{
@@ -223,6 +246,13 @@ h5{
     font-size: 20px;
     text-align: center;
     padding: 20px;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     color: white;
+    -webkit-transition: font-size 0.3s ease;
+    transition: font-size 0.3s ease;
+}
+
+.portPic:hover h5{
+    font-size:24px; 
 }

@@ -27,6 +27,10 @@ nav > h4 > a{
     color: gray;
 }
 
+.navbtn:hover{
+    color: black;
+}
+
 h4:last-child{
     border: none;
 }
@@ -154,6 +158,10 @@ hr{
     width:auto;
 }
 
+.icon:hover{
+    filter: invert(70%);
+}
+
 p{
     margin: 0 0 10px 0;
     line-height: 200%;
@@ -214,6 +222,10 @@ textarea{
     background-color: #4aaaa5;
     color: white;
     font-size:18px;
+}
+
+#submit:hover{
+    background-color:  #357e79;
 }
 
 #portPics{

@@ -9,6 +9,7 @@ header{
     top: 0px;
     width: 100%;
     z-index: 10;
+    border-bottom: 1px solid rgb(201, 200, 200);
 }
 nav{
     display: block;
@@ -107,6 +108,7 @@ h6{
     width: 600px;
     padding: 20px 25px;
     background-color: white;
+    border: 1px solid rgb(201, 200, 200);
 }
 
 #main > h1{
@@ -132,6 +134,7 @@ h6{
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    border: 1px solid rgb(201, 200, 200);
 }
 
 h2{
